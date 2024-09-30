@@ -1,0 +1,6 @@
+services:
+  amadeus_app:
+    image: "amadeus-app:0.1"
+    build: .
+    ports:
+      - "0.0.0.0:5173:5173"
